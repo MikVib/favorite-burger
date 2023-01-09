@@ -62,21 +62,21 @@ function LoadSelectValue(el) {
 let selectCheck = document.querySelector("[name='selectcheck']");
 selectCheck.value = LoadSelectValue(selectCheck);
 
-const addFavorite = document.querySelector('.addFavorite')
+// const addFavorite = document.querySelector('.addFavorite')
 
-addFavorite.addEventListener('click', () => {
+// addFavorite.addEventListener('click', () => {
 
-    let a = document.getElementById('my-select').value;
+//     let a = document.getElementById('my-select').value;
 
-    // проверка формы:
-    localStorage.setItem('select', a);
-    console.log(a);
-    if (a == '') {
-        alert('Выберете вариант')
-        let select = document.getElementById('my-select')
-        select.focus()
-    }
-})
+//     // проверка формы:
+//     localStorage.setItem('select', a);
+//     console.log(a);
+//     if (a == '') {
+//         alert('Выберете вариант')
+//         let select = document.getElementById('my-select')
+//         select.focus()
+//     }
+// })
 
 // alert(selectCheck.value)
 
